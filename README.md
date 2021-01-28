@@ -1,12 +1,9 @@
 # Road segmentation using feature fusion
 ​
-## Project implemented by : 
-Dhvani Katkoria
-​
 ## Introduction
 ​
   
-   <img src = 'image_dataset/road_seg.png' /> 
+   <img src = 'road_seg.png' /> 
 Road detection is beneficial for various autonomous vehicles tasks. Robust road segmentation is a key challenge in self-driving research. Despite rapid developments in visual image-based road detection, robustly identifying road areas in visual images remains challenging due to issues like illumination changes and blurry images. Image segmentation is pixel wise classification of each point into given number of classes. Here we have 2 classes for road and non-road region. To improve better road detection and segmentation the same image is used in different way for features extraction and this features are combined with the features extracted from original image. Image is initially segmented using K-means clustering into 3 parts end, and fed to the CNN model along with original for feature extraction. The project is to perform segmentation of road regions from given input image using fusion of features. Two set of images are used for training a CNN model: Original image and basic segmented image using K-means clustering. Features of both images are fused to obtain better accuracy in segmentation task. 
 ​
 ​
